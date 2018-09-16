@@ -23,6 +23,9 @@ namespace PrintHelper
             PrinterHelper doc = new PrinterHelper();
             doc.HeaderContents = tableLayoutPanel1;
             doc.ShowPreviewDialog();
+
+
+
         }
     }
 }
