@@ -16,5 +16,13 @@ namespace PrintHelper
         {
             InitializeComponent();
         }
+
+        private void btnPreview_Click(object sender, EventArgs e)
+        {
+            
+            PrinterHelper doc = new PrinterHelper();
+            doc.HeaderContents = tableLayoutPanel1;
+            doc.ShowPreviewDialog();
+        }
     }
 }
